@@ -15,7 +15,7 @@ for letter, i in zip(alphabet, range(9, 65, 7)):
     df.pop('Qualification')
     dict_table[f'Group {letter}'] = df
 
-
+# Export dictionary to external file
 with open('dict_table', 'wb') as output:
     pickle.dump(dict_table, output)
 
