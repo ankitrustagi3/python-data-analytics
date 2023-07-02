@@ -1,0 +1,18 @@
+import gradio as gr
+
+def greet(name, is_morning, temperature):
+    salutation = "Good Morning" if is_morning else "Good Evening"
+    greeting = f"{salutation} {name}. It is {temperature} degrees today"
+    celsius = (temperature - 32) * 5 / 9
+    return greeting, round(celsius, 2)
+
+demo = gr.Interface(
+    fn=greet,
+    inputs=["text", "checkbox", gr.Slider(0, 100)],
+    outputs=["text", "number"],
+)
+
+def sepia(input_img):
+    sepia 
+
+demo.launch()

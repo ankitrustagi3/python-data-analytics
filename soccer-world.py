@@ -46,3 +46,5 @@ def get_matches(year):
 
 matchSummary = get_matches(2022)
 matchSummary.to_csv('fifa_worldcup_2022.csv', index=False)
+
+## Data Cleaning
