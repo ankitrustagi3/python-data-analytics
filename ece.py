@@ -2,7 +2,8 @@ import requests
 from datetime import date
 
 mlb_url = "http://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard"
-nba_url = ""
+nba_url = "http://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard"
+nfl_url = "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"
 
 response = requests.get(mlb_url)
 
