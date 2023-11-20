@@ -1,21 +1,17 @@
 
 ## Running the experiments
 
-The code is all present in Google Colab which makes it very simple to run all of the experiments. But diving deeper into the code files, shown below is the way to run the experiments.
+The code is all present in Google Colab which makes it very simple to run all of the experiments. There are two code files that store all of the work that I did (both the reimplementation and further implementation). The names of the two code files are: Reimplementation.ipynb and Transformer.ipynb. As I mentioned before, these notebooks are present in Google Colab which means that if one wanted to run the experiments, then they would just have to sequentially run the tasks in the notebook.  
 
-```bash
-wget http://images.cocodataset.org/zips/train2017.zip -O coco_train2017.zip
-wget http://images.cocodataset.org/zips/val2017.zip -O coco_val2017.zip
-wget http://images.cocodataset.org/annotations/annotations_trainval2017.zip -O coco_ann2017.zip
-```
 
 ## Reused code
-The CLIP model was found in the repository: https://huggingface.co/openai/clip-vit-base-patch32. 
+The CLIP model was found in the repository: https://huggingface.co/openai/clip-vit-base-patch32. In addition, the COCOParser and Section 1 and 2 of the Reimplementation are present in the GitHub repository: https://github.com/RahmadSadli/COCO_Dataset_Loader/blob/main/Custom_Loading_COCO.ipynb. 
 
 ## Modified code
+There isn't any modified code present in my code files. Either the code was reused by one of the repositories above or the code was fully original as I continue to discuss about in the next section.
 
 ## Original code
-The code that was created 
+The code that was created by me in the Transformer.ipynb. In this code file, I have created a fundamental transformer model with the layers of encoding, decoding, and linear. In addition, the application of the CLIP model onto the COCO dataset is also original code as I try to measure the similarity scores of the text to the image.
 
 ## Datasets 
-The datasets that I have utilized for these experiments are COCO and MNIST. The MNIST one was acquired through the use of torchvision as it is one of the provided datasets. COCO was generated from the wget links that are mentioned above in the README.
+The datasets that I have utilized for these experiments are COCO and MNIST. The MNIST one was acquired through the use of torchvision as it is one of the provided datasets. COCO was generated from the wget links that are mentioned above in the README (the link to the datasets is: http://images.cocodataset.org).
