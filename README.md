@@ -8,10 +8,10 @@ The code is all present in Google Colab which makes it very simple to run all of
 The CLIP model was found in the repository: https://huggingface.co/openai/clip-vit-base-patch32. In addition, Sections 1-4 of the Reimplementation notebook are present in the GitHub repository: https://github.com/RahmadSadli/COCO_Dataset_Loader/blob/main/Custom_Loading_COCO.ipynb. 
 
 ## Modified code
-There isn't any modified code present in my code files. Either the code was reused by one of the repositories above or the code was fully original as I continue to discuss about in the next section.
+The CLIP model is present in the repository that I mentioned above. As mentioned in the findings of my second paper, the use of CLIP model was utilized on a variety of datasets. I decided to modify the code by first applying it to the COCO dataset and then also visualizing the results in a heatmap. The future steps of this project will be to get the training loop of the CLIP model working and also the collation function of the COCO datasetloader. 
 
 ## Original code
-The code that was created by me in the Transformer.ipynb. In this code file, I have created a fundamental transformer model with the layers of encoding, decoding, and linear. In addition, the application of the CLIP model onto the COCO dataset is also original code as I try to measure the similarity scores of the text to the image.
+The code that was created by me in the Transformer.ipynb. In this code file, I have created a fundamental transformer model with the layers of encoding, decoding, and linear. 
 
 ## Datasets 
 The datasets that I have utilized for these experiments are COCO and MNIST. The MNIST one was acquired through the use of torchvision as it is one of the provided datasets. COCO was generated from the wget links that are mentioned above in the README (the link to the datasets is: http://images.cocodataset.org).
