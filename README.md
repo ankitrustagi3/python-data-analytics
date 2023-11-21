@@ -5,7 +5,7 @@ The code is all present in Google Colab which makes it very simple to run all of
 
 
 ## Reused code
-The CLIP model was found in the repository: https://huggingface.co/openai/clip-vit-base-patch32. In addition, the COCOParser and Section 1 and 2 of the Reimplementation are present in the GitHub repository: https://github.com/RahmadSadli/COCO_Dataset_Loader/blob/main/Custom_Loading_COCO.ipynb. 
+The CLIP model was found in the repository: https://huggingface.co/openai/clip-vit-base-patch32. In addition, Sections 1-4 of the Reimplementation notebook are present in the GitHub repository: https://github.com/RahmadSadli/COCO_Dataset_Loader/blob/main/Custom_Loading_COCO.ipynb. 
 
 ## Modified code
 There isn't any modified code present in my code files. Either the code was reused by one of the repositories above or the code was fully original as I continue to discuss about in the next section.
